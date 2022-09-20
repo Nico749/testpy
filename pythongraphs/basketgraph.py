@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 import pandas as pd
 df = pd.DataFrame({'points': [25, 12, 15, 14, 19, 23, 25, 29],
                    'assists': [5, 7, 7, 9, 12, 9, 9, 4],
@@ -13,8 +12,8 @@ df_assist = df.iloc[:, [2]]
 
 
 plt.figure(figsize=(10, 5)) 
-# style the graph 
-sns.set(rc={'axes.facecolor':'#f2564b','axes.grid' : False})
+# style the graph, linewidth is in float 
+sns.set(rc={'axes.facecolor':'#f2564b','axes.grid' : False,"lines.linewidth": 2.5 })
 
 
 plt.plot(df_months,df_points, color="white")

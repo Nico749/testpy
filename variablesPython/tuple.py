@@ -11,3 +11,5 @@ print(mylist)
 mytuple = "mark",25,"fake address"
 name,age,address = mytuple
 print(name)
+
+# tuple is lighter and faster than a list 

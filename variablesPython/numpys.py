@@ -12,7 +12,7 @@ print(climate_data @ weights)
 # [56.8 76.9 81.9 57.7 74.9]
 
 import urllib.request
-
+# retrieve an external url, WE NEED TO IMPORT THE URLLIB
 urllib.request.urlretrieve(
     'https://gist.github.com/BirajCoder/a4ffcb76fd6fb221d76ac2ee2b8584e9/raw/4054f90adfd361b7aa4255e99c2e874664094cea/climate.csv', 
     'climate.txt')

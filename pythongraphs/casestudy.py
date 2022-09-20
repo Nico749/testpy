@@ -1,10 +1,11 @@
-# importing dataset from kaggle
+# importing dataset from kaggle, we need API key to do it
 import opendatasets as od
 od.download('stackoverflow-developer-survey-2020')
 import os
 os.listdir('stackoverflow-developer-survey-2020')
 
 import pandas as pd
+# retrieve the dataset as it is
 survey_raw_df = pd.read_csv('stackoverflow-developer-survey-2020/survey_results_public.csv')
 # print(survey_raw_df.columns) gives back the columns of the db
 

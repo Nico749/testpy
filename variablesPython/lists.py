@@ -1,3 +1,4 @@
+# LISTS ARE THE JS ARRAYS
 mylist =["banana","red",1]
 # print (mylist)
 # if "banana" in mylist:

@@ -1,3 +1,4 @@
+# JS OBJECT 
 mydict ={"name":"Jack","age":73,"mail":"jackmail.com"}
 name = mydict["name"]
 # print(name)
@@ -10,6 +11,7 @@ del mydict["name"]
 for key,value in mydict.items():
     print(key,value)
 mydict2 = {"car":"audi","citizenship":"austrian"}
+# merge the 2 dictionaries
 mydict.update(mydict2)
 print(mydict)
     

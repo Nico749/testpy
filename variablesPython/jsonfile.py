@@ -1,5 +1,5 @@
 import json
-from unicodedata import name
+# from unicodedata import name
 person = {"name":"Josh",
 "age":"15",
 "mail":"joshmail",
@@ -25,4 +25,3 @@ class User:
         self.name = name
         self.age = age
 user = User("Mark",8)
-print(user)

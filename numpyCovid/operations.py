@@ -9,7 +9,7 @@ arr3 = np.array([[11, 12, 13, 14],
 
 # print(arr2+arr3)
 
-# broadcasting allowing arithmetic operations between two arrays with different numbers of dimensions but compatible shapes. 
+# BROADCASTING allowing arithmetic operations between two arrays with different numbers of dimensions but compatible shapes. 
 arr4 = np.array([4, 5, 6, 7])
 # print(arr2+arr4)
 # When the expression arr2 + arr4 is evaluated, arr4 (which has the shape (4,)) is replicated three times to match the shape (3, 4) of arr2. 
